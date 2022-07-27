@@ -9,11 +9,11 @@ cursor = db.cursor()
 cursor.execute("CREATE TABLE IF NOT EXISTS movies (id INT, Movie_Name VARCHAR(30), Lead_Actor VARCHAR(30), Lead_Actress VARCHAR(30), Director_Name VARCHAR(30) ,Year_Of_Release INT)")
 
 ids = [1,2,3,4]
-movies = ["Bahubali","Chhichhore","RRR","Vikram"]
-heros = ["Parbas","Sushant Singh Rajput","Ram Charan","Kamal Haasan"]
-heroines = ["Anushka","Shraddha Kapoor","Alia Bhat","Gayathrie Shankar"]
-directors = ["S. S. Rajamouli","Nitesh Tiwari","S. S. Rajamouli","Lokesh Kanagaraj"]
-years = ["2015","2019","2022","2022"]
+movies = ["Mankatha","M.S. Dhoni: The Untold Story","Soorarai Pottru","Vikram"]
+heros = ["Ajith Kumar","Sushant Singh Rajput","Suriya","Kamal Haasan"]
+heroines = ["Trisha krishnan","Kiara Advani","Aparna Balamurali","Gayathrie Shankar"]
+directors = ["Venkat Prabhu","Neeraj Pandey","Sudha Kongara Prasad","Lokesh Kanagaraj"]
+years = ["2011","2016","2020","2022"]
 
 columns = ["ID","Movie_Name","Lead_Actor","Lead_Actress","Director_Name","Year_Of_Release"]
 
